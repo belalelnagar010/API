@@ -1,0 +1,67 @@
+#home{
+    background-image: url(../img/bg.jpg);
+    background-size: cover;
+    background-position:center center ;
+}
+
+.navbar{
+    position: fixed;
+    cursor: pointer;
+}
+
+.navbar-brand {
+    color: #fff;
+}
+.navbar-brand:hover {
+    color: #fff;
+}
+.home-caption{
+    padding-top: 250px;
+    color: #fff;
+    text-align: center;
+}
+.home-caption p{
+    font-size: 50px;
+}
+
+.home-caption span{
+    color: gold;
+    font-weight: 700;
+}
+.nav-link{
+    color: #fff !important;
+}
+.nav-item{
+    margin-right: 10px;
+    font-size: 16px;
+}
+.nav-item a{
+    text-decoration: none;
+    font-weight: 600;
+    color: #282828;
+}
+.nav-item .active,
+.nav-item a:hover{
+    color: #f25454;
+}
+.navbar-collapse div .fab{
+    color: #6C757D;
+    transition: all 0.4s;
+}
+.navbar-collapse div .fab:hover{
+    transform: scale(1.2);
+}
+.navbar-collapse div .fa-twitter:hover{
+    color: #2AA9E0;
+}
+.navbar-collapse div .fa-facebook-f:hover{
+    color: #1877F2;
+}
+.navbar-collapse div .fa-instagram:hover{
+    color: #F76541;
+}
+
+.recpyimg{
+    height: 200px;
+    padding-top: 40px;
+}
